@@ -6,6 +6,7 @@ body {
 
 :root {
     --white_color: #F9FAF8;
+    --squere: 150px
 }
 
 .container {
@@ -68,11 +69,13 @@ body {
 }
 .header_title {
     font-size: 50px;
+    font-weight: 900;
 }
 
 .header_text {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #e5e7eb;
 }
 
 .sign_up_btn {
@@ -81,4 +84,38 @@ body {
     color: var(--white_color);
     padding: 10px 40px;
     border-radius: 7px;
+}
+
+.info_img {
+    width: var(--squere); 
+    height: var(--squere); 
+    border: 4px solid #3b82f6;
+    border-radius: 15px;
+}
+
+.info_name {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info_section_items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.info_text {
+    max-width: var(--squere);
+    text-align: center;
+    color: #4e5866;
+    margin-top: 10px;
+}
+.ifno_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
