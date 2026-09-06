@@ -22,7 +22,6 @@ Document
   box-sizing: border-box; /* 1 */
 }
 html {
-  font-family: sans-serif; /* 2 */
   line-height: 1.15; /* 3 */
   -webkit-text-size-adjust: 100%; /* 4 */
   -ms-text-size-adjust: 100%; /* 4 */
@@ -46,7 +45,6 @@ Body
 */
 body {
   margin: 0; /* 1 */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
