@@ -142,3 +142,36 @@ body {
     font-size: 30px;
     font-weight: bold;
 }
+
+.action_container {
+    background-color: #3b82f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px 130px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action_text {
+    color: var(--white_color);
+}
+
+.action_call {
+    background-color: #3b82f6;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 150px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
